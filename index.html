@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> wellcome to my page</title>
+    <style>
+        /* Basic Styling for Layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #777;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        thead {
+            background-color: #f4f4f4;
+        }
+        tfoot {
+            background-color: #f4f4f4;
+            text-align: center;
+            font-style: italic;
+        }
+        /* Form Styling */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        form div {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="email"], textarea, select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        /* Multimedia Controls */
+        #customVideoControls {
+            margin-top: 10px;
+            text-align: center;
+        }
+        #customVideoControls button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Comprehensive HTML Page</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#lists">Lists</a>
+        <a href="#table">Table</a>
+        <a href="#form">Contact Form</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="https://www.example.com" target="_blank">External Link</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Section 1: Headings and Image -->
+        <section id="home">
+            <h2>About This Page</h2>
+            <h3>Introduction</h3>
+            <p>This page showcases various HTML elements including headings, lists, tables, forms, and multimedia content.</p>
+            <h4>Sample Image</h4>
+            <!-- Updated Image Source -->
+            <img src="https://picsum.photos/800/400" alt="A beautiful placeholder landscape">
+        </section>
+
+        <!-- Section 2: Lists -->
+        <section id="lists">
+            <h2>Favorites</h2>
+
+            <!-- Ordered List with Nested Subcategories -->
+            <h3>Favorite Books</h3>
+            <ol>
+                <li>The Great Gatsby
+                    <ul>
+                        <li>Genre: Classic</li>
+                        <li>Author: F. Scott Fitzgerald</li>
+                    </ul>
+                </li>
+                <li>1984
+                    <ul>
+                        <li>Genre: Dystopian</li>
+                        <li>Author: George Orwell</li>
+                    </ul>
+                </li>
+                <li>To Kill a Mockingbird
+                    <ul>
+                        <li>Genre: Southern Gothic</li>
+                        <li>Author: Harper Lee</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <!-- Unordered List with Nested Subcategories -->
+            <h3>Things to Do This Weekend</h3>
+            <ul>
+                <li>Outdoor Activities
+                    <ul>
+                        <li>Hiking</li>
+                        <li>Picnic in the park</li>
+                        <li>Cycling</li>
+                    </ul>
+                </li>
+                <li>Home Projects
+                    <ul>
+                        <li>Organize the garage</li>
+                        <li>Paint the living room</li>
+                    </ul>
+                </li>
+                <li>Entertainment
+                    <ul>
+                        <li>Watch a new movie</li>
+                        <li>Read a book</li>
+                        <li>Play board games</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section 3: Table -->
+        <section id="table">
+            <h2>Student Grades</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Grade</th>
+                        <th>Comments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice Johnson</td>
+                        <td>A</td>
+                        <td>Excellent understanding of the material.</td>
+                    </tr>
+                    <tr>
+                        <td>Bob Smith</td>
+                        <td>B+</td>
+                        <td>Great improvement this semester.</td>
+                    </tr>
+                    <tr>
+                        <td>Charlie Davis</td>
+                        <td>A-</td>
+                        <td>Consistently reliable and engaged.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">End of Student Grades</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Section 4: Contact Form -->
+        <section id="form">
+            <h2>Contact Me</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com">
+                </div>
+
+                <div>
+                    <label>Subject:</label>
+                    <input type="radio" id="subject-general" name="subject" value="general" checked>
+                    <label for="subject-general">General Inquiry</label><br>
+                    <input type="radio" id="subject-feedback" name="subject" value="feedback">
+                    <label for="subject-feedback">Feedback</label><br>
+                    <input type="radio" id="subject-support" name="subject" value="support">
+                    <label for="subject-support">Support</label>
+                </div>
+
+                <div>
+                    <label for="contact-method">Preferred Contact Method:</label>
+                    <select id="contact-method" name="contact-method">
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="mail">Mail</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Section 5: Multimedia -->
+        <section id="multimedia">
+            <h2>Multimedia</h2>
+
+            <!-- Video with Custom Controls -->
+            <h3>Sample Video</h3>
+            <video id="myVideo" width="800" height="450" src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div id="customVideoControls">
+                <button id="playPauseBtn">Play</button>
+            </div>
+
+            <!-- Audio Element -->
+            <h3>Sample Audio</h3>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Comprehensive HTML Page</p>
+    </footer>
+
+    <!-- JavaScript for Custom Video Controls -->
+    <script>
+        // Get video and button elements
+        const video = document.getElementById('myVideo');
+        const playPauseBtn = document.getElementById('playPauseBtn');
+
+        // Add event listener to the button
+        playPauseBtn.addEventListener('click', function() {
+            if (video.paused || video.ended) {
+                video.play();
+                playPauseBtn.textContent = 'Pause';
+            } else {
+                video.pause();
+                playPauseBtn.textContent = 'Play';
+            }
+        });
+
+        // Optional: Update button text when video ends
+        video.addEventListener('ended', function() {
+            playPauseBtn.textContent = 'Play';
+        });
+    </script>
+
+</body>
+</html>
